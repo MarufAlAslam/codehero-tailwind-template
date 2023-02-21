@@ -1,0 +1,11 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+.header {
+  background: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
