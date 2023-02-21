@@ -9,3 +9,11 @@
   background-size: cover;
   background-position: top;
 }
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.lh-13 {
+  line-height: 1.3;
+}
