@@ -10,6 +10,15 @@
   background-position: top;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-30 {
+  font-size: 30px;
+}
 .fs-40 {
   font-size: 40px;
 }
@@ -28,4 +37,28 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%); */
+}
+/* app */
+.app {
+  background: url("../img/app-bg.png");
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%); */
+}
+
+/* frontend */
+.green {
+  border-left: 3px solid #99c900;
+}
+
+/* fr-again */
+.fr-again {
+  background: url("../img/slider.png");
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -175px;
+  margin-bottom: -175px !important;
 }
