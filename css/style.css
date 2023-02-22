@@ -62,3 +62,12 @@
   top: -175px;
   margin-bottom: -175px !important;
 }
+
+/* carousel */
+.card.cc::after {
+  border-bottom: 4px solid transparent;
+  width: 100%;
+}
+.card.cc:hover::after {
+  border-bottom: 4px solid #27367d;
+}
