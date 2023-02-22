@@ -88,3 +88,52 @@
 .f-logo {
   min-width: 100px;
 }
+
+@media screen and (max-width: 767px) {
+  .navbar.bg-transparent.px-10.py-5 {
+    padding: 10px;
+  }
+  label.btn.btn-ghost.lg\:hidden {
+    padding-left: 0;
+  }
+  .w-full {
+    padding: 10px;
+  }
+  .fr-again {
+    background-size: cover;
+    top: 0;
+    margin-bottom: 0 !important;
+  }
+  .carousel .p-32 {
+    padding: 1rem;
+  }
+  .fr-again .absolute {
+    top: unset;
+    bottom: -25px;
+    z-index: 99988;
+  }
+  .fr-again .carousel-item {
+    padding-bottom: 60px;
+  }
+  .image-slider .absolute {
+    display: none;
+  }
+  .lh-2 {
+    line-height: 1.1;
+  }
+  .f-card {
+    background: linear-gradient(rgba(255, 255, 256, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/f-card.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 98%;
+    margin: auto;
+  }
+  .footer {
+    background: url("../img/f-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+}
