@@ -71,3 +71,20 @@
 .card.cc:hover::after {
   border-bottom: 4px solid #27367d;
 }
+
+/* footer */
+.f-card {
+  background: url("../img/f-card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+.footer {
+  background: url("../img/f-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.f-logo {
+  min-width: 100px;
+}
